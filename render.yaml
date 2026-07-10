@@ -1,8 +1,4 @@
 # Render.com — Configuración del backend GUIOSPRO FLOSS
-# =====================================================
-# Este archivo permite a Render desplegar automáticamente
-# el backend FastAPI desde la carpeta /backend
-
 services:
   - type: web
     name: guiospro-floss-backend
