@@ -1,0 +1,9 @@
+# Ignorar el backend — se despliega en Render.com, no en Vercel
+backend/
+
+# Ignorar archivos innecesarios para el build del frontend
+render.yaml
+ver_datos.py
+iniciar_sistema.bat
+guidelines/
+src/imports/
