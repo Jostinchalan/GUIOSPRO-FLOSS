@@ -1,0 +1,24 @@
+# GUIOSPRO FLOSS — Dependencias Python
+# Instalar: pip install -r requirements.txt
+
+# Servidor ASGI
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Validación de datos
+pydantic==2.8.2
+
+# Extracción de texto de PDFs (para /api/analyze-file con PDFs)
+pdfplumber==0.11.4
+
+# ── SDKs de LLM (descomente el que vaya a usar) ──────────
+anthropic==0.34.0       # Claude (Anthropic)
+#openai==1.45.0          # GPT-4o (OpenAI)
+
+# Utilidades
+python-multipart==0.0.12  # requerido para UploadFile en FastAPI
+
+# ── Base de datos (PostgreSQL / pgAdmin4) ────────────────
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
